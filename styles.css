@@ -9,9 +9,15 @@
     border: none;
     outline: none;
 }
-
+.bottomText >p{
+    color:blueviolet;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:50px;
+}
 body {
     background-color: skyblue;
+    
     /*#FA8072 salmon pink*/
 }
 .container > h3{
@@ -19,7 +25,7 @@ margin-bottom: 15px;
 color:darkgoldenrod ;
 }
 .container {
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     display: flex;
     justify-content: center;
